@@ -18,7 +18,7 @@ public class Main {
             } else{
                 System.out.println("Opción seleccionada: " + input);
                 Escenas.inicarEscenaDespertar();
-
+                Juego.postDespertar();
             }
         }
 
