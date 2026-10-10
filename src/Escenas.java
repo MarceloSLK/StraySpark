@@ -155,11 +155,14 @@ public class Escenas {
     //ESCENA REVISAR LA NAVE
     public static void revisarLaNave(){
         System.out.println("OHH TA TO MAL AKI, MEJOR SALGO MI LIDEL");
+        //el pj avanzara un poco y hablara de algo de la nave, el jugador debe idnicar si seguir viendo la nave o salir de la nave
     }
 
     //ESCENA SALIR DE LA NAVE
     public static void salirDeLaNave(){
         System.out.println("Naa pero y ete planeta ta pal ñato siono rok");
+
+        //Indicar 2 caminos a elegir(el pj termina explorando los 2 caminos)
     }
 
 }
