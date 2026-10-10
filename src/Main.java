@@ -15,10 +15,13 @@ public class Main {
                 running = false;
                 System.out.println("Opción seleccionada: " + input);
                 System.out.println("¡Vuelve pronto viajero!");
-            } else{
+            } else if (input.equals("1")){
                 System.out.println("Opción seleccionada: " + input);
                 Escenas.inicarEscenaDespertar();
                 Juego.postDespertar();
+            }else{
+                System.out.println("Opcion no valida");
+                Escenas.pausita();
             }
         }
 

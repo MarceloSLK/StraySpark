@@ -8,6 +8,11 @@ public class Escenas {
             Thread.currentThread().interrupt();
         }
     }
+    //PAUSA DE 2 SEGUNDOS
+    public static void pausita(){
+        pausar(2);
+    }
+
     //ESCENA DEL DESPERTAR DEL PROTAGONISTA
     public static void inicarEscenaDespertar(){
         System.out.println("==INICIO DE LA AVENTURA==");
@@ -113,7 +118,30 @@ public class Escenas {
     }
     //ESCENA ABRIR PUERTO CON EL PODER CHISPA INICIAL
     public static void abrirPuertaChispaInicial(){
-        System.out.println("UWUUUUUUU");
+        System.out.println("//Koko se acerca a la puerta...");
+        pausar(2);
+        System.out.println("Koko: Bien... aquí voy..");
+        pausar(2);
+        System.out.println("//Koko se concentra con la mano frente al panel");
+        pausar(2);
+        System.out.println("Rok(IA de la nave): Los sensores indican que hay una gran cantidad de energía en tu mano Koko");
+        pausar(2);
+        System.out.println("Rok(IA de la nave): Prueba acercando tu mano lentamente");
+        pausar(2);
+        System.out.println("Koko: Entiendo... bien Koko ve lentamente... un poco más....");
+        pausar(3);
+        System.out.println("Bzzzt!!, El tablero recibe la descarga y la compuerta se abre bruscamente");
+        pausar(3);
+        System.out.println("Koko: ¡Wow, Viste eso Rok!");
+        pausar(2);
+        System.out.println("Rok(IA de la nave): ¡Felicidades!, me transferiré al caso de tu traje por si deseas salir a explorar");
+        pausar(2);
+        System.out.println("...");
+        pausar(2);
+        System.out.println("Rok(IA de la nave): Hola Koko, ya estoy en el caso del traje, ¿que dices... salimos a explorar y buscar repuestos para la nave?");
+        pausar(4);
+        System.out.println("Koko: Bienvenido Rok, dejame pensar que haremos");
+
     }
     //ESCENA INTENTAR ABRIR PUERTA DE LA NAVE
     public static void abrirPuertaNave(){
@@ -122,6 +150,16 @@ public class Escenas {
         System.out.println("Koko: AGH... no puedo abrirla, es muy pesada y no tengo fuerzas");
         pausar(2);
         System.out.println("Debería intentar con la idea de Rok");
+    }
+
+    //ESCENA REVISAR LA NAVE
+    public static void revisarLaNave(){
+        System.out.println("OHH TA TO MAL AKI, MEJOR SALGO MI LIDEL");
+    }
+
+    //ESCENA SALIR DE LA NAVE
+    public static void salirDeLaNave(){
+        System.out.println("Naa pero y ete planeta ta pal ñato siono rok");
     }
 
 }
